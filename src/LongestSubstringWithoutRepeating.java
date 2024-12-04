@@ -1,5 +1,7 @@
 import java.util.HashMap;
 
+
+// Two pointer problems
 public class LongestSubstringWithoutRepeating {
     public int lengthOfLongestSubstring(String s) {
         HashMap<Character, Integer> map = new HashMap<>(); // To store the last seen position of each character
